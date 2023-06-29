@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#17BDB1"
+    tools:context=".Detalles_fragment">
+
+    <TextView
+        android:id="@+id/nombre_Zapatilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:text="@{zapatillas.nombreZapatilla}" />
+    <TextView
+        android:id="@+id/tvPrecioZapatilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{zapatillas.precioZapatilla}" />
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/titan_one"
+        android:text="Tap Shoes"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp" />
+
+    </FrameLayout>
+
+
